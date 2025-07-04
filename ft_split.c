@@ -6,7 +6,7 @@
 /*   By: oufarah <oufarah@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/22 18:03:39 by oufarah           #+#    #+#             */
-/*   Updated: 2025/02/01 22:03:08 by oufarah          ###   ########.fr       */
+/*   Updated: 2025/07/04 21:35:50 by oufarah          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,9 +43,7 @@ char	*ft_strndup(char *str, size_t n)
 	i = 0;
 	if (!str)
 		return (NULL);
-	s = malloc(n + 1);
-	if (!s)
-		return (NULL);
+	s = ft_malloc(n + 1, ALLOC);
 	while (n--)
 	{
 		s[i] = str[i];

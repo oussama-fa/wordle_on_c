@@ -2,7 +2,8 @@ NAME = Wordel
 
 CC = cc
 
-CFLAG = #-g3 -fsanitize=address
+CFLAG = -w
+# CFLAG = -fsanitize=address
 
 RM = rm -rf
 

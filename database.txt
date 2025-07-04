@@ -65,10 +65,10 @@ floor
 house
 spend
 score
-move 
+moves
 teach
 label
-list 
+lists
 title
 email
 phone
